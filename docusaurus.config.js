@@ -74,15 +74,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          
+          {
+            label: 'SoQuest API',
+            to: '/api/',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            label: 'SoQuest API',
-            to: '/api/',
+            label: 'BQL Tutorial',
           },
           {
             href: 'https://github.com/Port3-Network',
@@ -99,7 +100,11 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'SoQuest API',
+                to: '/api/',
+              },
+              {
+                label: 'BQL Tutorial',
                 to: '/docs/intro',
               },
             ],
@@ -125,8 +130,12 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Blog',
+                href: 'https://medium.com/@Port3',
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Port3-Network',
               },
             ],
           },
