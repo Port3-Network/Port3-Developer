@@ -81,11 +81,11 @@ const config = {
             label: 'Tutorial',
           },
           {
-            label: 'REST API',
+            label: 'SoQuest API',
             to: '/api/',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Port3-Network',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,16 +108,16 @@ const config = {
             title: 'Community', //大标题
             items: [
               {
-                label: 'Stack Overflow', // 链接标题
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus', //超链接
+                label: 'Twitter', // 链接标题
+                href: 'https://twitter.com/Port3Network', //超链接
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/port3network',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.gg/JV5gT5cGCk',
               },
             ],
           },
@@ -125,17 +125,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`, //版权声明
+        copyright: `Copyright © ${new Date().getFullYear()}, Port3 Team.`, //版权声明
       },
       prism: {
         theme: lightCodeTheme,

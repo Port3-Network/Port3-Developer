@@ -9,3 +9,9 @@
   height: 200px;
   width: 200px;
 }
+
+.columnAlignCenter {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
