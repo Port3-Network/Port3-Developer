@@ -149,7 +149,7 @@ paths:
                       stream_key: sk_ap-south-1_BSErwBSdrcWn_0eG01cFGCJcRcCsflOAX3Eu4B3RyRX
                       playback_url: 'https://2ec802dd47b0.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.944908621410.channel.Jk1l97eJF0ME.m3u8'
                       disabled: false
-      description: 'Creates a livestream for the given organization ID and returns ingest server, stream key, and playback URL. You can pass custom input to the ingest server and stream key, and freely distribute the content using the playback URL on any player that supports HLS/LHLS.'
+      description: '对于改路由的描述/或者其他'
       # 属于那个模块的路由
       tags:
         - 自定义模块的路由
