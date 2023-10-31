@@ -4,12 +4,36 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  height: 260px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: #1a1a1a;
 }
 
+.headerTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 130px;
+ 
+}
+
+.headerTitleH2 {
+  text-align: start;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+}
+.colorYellow {
+  color: #ebbc42;
+}
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -22,7 +46,7 @@
   justify-content: center;
 }
 
-a{
+a {
   display: flex !important;
   align-items: center;
 }
